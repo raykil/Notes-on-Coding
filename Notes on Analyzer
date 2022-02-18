@@ -11,6 +11,8 @@
         - DY(Drell-Yann) process is the background. The code above makes a "condor_out.hdf5" file in "outputDY" directory.
       - For ZH procvess: "python condor_SUEP_WS.py --isMC=1 --era=2018 --dataset=signal --analyzer=ZH_simple --infile=/eos/user/c/cericeci/SUEP_signals/UL18/ZHleptonicpythia_generic_M125_T2ZHleptonic/NANOAOD/total.root"
         - ZH process is the signal. The code above makes a "condor_out.hdf5" file in "outputZH" directory.
+    iii) A file "condor_out.hdf5" will be created in "SUEPCoffea_dask" directory. I have to move that file into respective directories, 
+         i.e., "outputDY" and "outputZH" directories.
         
   3. Add new information in the plotter so that I can get a new plot
     - Plotter is found here: "/eos/user/j/jkil/SUEP/SUEPCoffea_dask/plotting/doPlots.py"
@@ -21,4 +23,6 @@
           - The first number (50 in this case) means the number of bins
   
   4. Make new plots by writing the following command: 
+    - "python doPlots.py"
+      - 
   
