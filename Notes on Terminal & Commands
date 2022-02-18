@@ -13,7 +13,7 @@
     - "n" command moves to the next entry of the search
 
 - Commnands for Terminal
-  - "ls -ltr" command gives info of all the files that are in the current directory (such as )
+  - "ls -ltr" command gives info of all the files that are in the current directory (such as the time that the file was created.)
 
 
 - Installing ROOT:
