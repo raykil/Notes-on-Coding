@@ -14,7 +14,9 @@
 
 - Commnands for Terminal
   - "ls -ltr" command gives info of all the files that are in the current directory (such as the time that the file was created.)
-
+  - How to copy a file from LXPLUS to my local machine:
+    - scp "jkil@lxplus.cern.ch:/eos/user/j/jkil/SUEP/output_graphs/{filename}" .
+      - the last "." means the current directory I am in.
 
 - Installing ROOT:
   i) pushd /eos/user/j/jkil/SUEP/CMSSW_10_6_20/src/
@@ -23,3 +25,19 @@
     - This means to load all libraries used by CMS. This command only works in src folder.
   iii) pushd
     - This command brings me back to the original directory that I was in.
+
+
+<< git commands >>
+
+- How to get a changed file on GitHub to my locale:
+  - use "git fetch me" command
+
+- How to commit in my local Terminal:
+  i) Change the code that I want to change
+  ii) use "git add {filename}" command to specify which files I want to commit.
+  iii) use "git commit" command to commit the added files.
+  
+- "git merge me/master"
+  - "me" in the command is name of my locale
+- "git status" command tells me which things are changed
+- "git remote -v" command tells me the locations where same(locally edited) copies are
