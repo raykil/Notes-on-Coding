@@ -1,0 +1,9 @@
+- Access to ssh: ssh jkil@lxplus.cern.ch
+
+- Some directories and their memories
+  - /afs/cern.ch/user/j/jkil/  --> This is 5 GB storage maximum, so I should use it only for keeping code and text files
+  - /eos/user/j/jkil/ --> I have 1 TB space here (I can do "ls /eos/user/j/jkil/" to check that it works)
+
+- Some notes on privacy:
+  - /afs/cern.ch/user/j/jkil/public/ --> Everybody on CERN has access
+  - /afs/cern.ch/user/j/jkil/private/ and /eos/user/j/jkil/ --> Only I have access
