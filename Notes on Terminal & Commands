@@ -11,7 +11,11 @@
 - Commands in code (enter using "vi" command):
   - "/" command enables the search function
     - "n" command moves to the next entry of the search
-    
+
+- Commnands for Terminal
+  - "ls -ltr" command gives info of all the files that are in the current directory (such as )
+
+
 - Installing ROOT:
   i) pushd /eos/user/j/jkil/SUEP/CMSSW_10_6_20/src/
     - "pushd" command moves to the directory specified, while remembering the diretory that I am currently in.
