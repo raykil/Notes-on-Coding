@@ -6,23 +6,35 @@
   
   2. Run the analyzer for signal and background using "condor_SUEP_WS.py"
     i) I need to activate coffea by typing "conda activate coffea"
+    
     ii) To run the analyzer, type the following codes in "SUEPCoffea_dask" directory (which is a directory that contains "condor_SUEP_WS.py"):
-      - For DY process: "python condor_SUEP_WS.py --isMC=1 --era=2018 --dataset=DY --analyzer=ZH_simple --infile=/eos/user/c/cericeci/SUEP_signals/DY18/NANO_NANO.root"
+      
+      - For DY process: "python condor_SUEP_WS.py --isMC=1 --era=2018 --dataset=DY --analyzer=ZH_simple --infile=/eos/user/c/cericeci/SUEP_signals/DY18/NANO_NANO.root --outputdir=$PWD/outputDY"
         - DY(Drell-Yann) process is the background. The code above makes a "condor_out.hdf5" file in "outputDY" directory.
-      - For ZH procvess: "python condor_SUEP_WS.py --isMC=1 --era=2018 --dataset=signal --analyzer=ZH_simple --infile=/eos/user/c/cericeci/SUEP_signals/UL18/ZHleptonicpythia_generic_M125_T2ZHleptonic/NANOAOD/total.root"
+        - The last part of the command, i.e., "--outputdir=$PWD/outputDY", is commanding that the "condor_out.hdf5" to be in "$PWD/outputDY" directory
+          - "$PWD/" is the trick to not write the whole address
+      
+      - For ZH procvess: "python condor_SUEP_WS.py --isMC=1 --era=2018 --dataset=signal --analyzer=ZH_simple --infile=/eos/user/c/cericeci/SUEP_signals/UL18/ZHleptonicpythia_generic_M125_T2ZHleptonic/NANOAOD/total.root --outputdir=$PWD/outputZH"
         - ZH process is the signal. The code above makes a "condor_out.hdf5" file in "outputZH" directory.
+        - Like above, "--outputdir=$PWD/outputZH" part commands that the "condor_out.hdf5" to be in "$PWD/outputZH" directory
+    
     iii) A file "condor_out.hdf5" will be created in "SUEPCoffea_dask" directory. I have to move that file into respective directories, 
          i.e., "outputDY" and "outputZH" directories.
         
   3. Add new information in the plotter so that I can get a new plot
     - Plotter is found here: "/eos/user/j/jkil/SUEP/SUEPCoffea_dask/plotting/doPlots.py"
-    - To add new information: 
+    - How to add new information: 
       i) Open "doPlots.py" using "vi doPlots.py" command
       ii) In line 14, there is code called "plots = {}". In {}, put info about the plots that I want to plot in the form:
           " "Leading Lepton phi":["leadlep_phi",50,0,6.28,"phi"] "
           - The first number (50 in this case) means the number of bins
   
   4. Make new plots by writing the following command: 
+    - First, make sure that I activated ROOT
     - "python doPlots.py"
       - 
+  
+  
+  
+  
   
