@@ -1,0 +1,14 @@
+- How to plot things:
+
+  1. Add information about what I want to plot in the analyzer
+    - Analyzer is found here: /eos/user/j/jkil/SUEP/SUEPCoffea_dask/workflows/SUEP_coffea_ZH_simple.py
+    - Information is in form of "out["leadlep_pt"] = leptons.pt[:,0]"
+  
+  2. Run the analyzer for signal using "condor_SUEP_WS.py"
+    - First, I need to activate coffea by typing "conda activate coffea"
+    - To run the analyzer, type the following codes in "SUEPCoffea_dask" directory:
+      - For DY process: "python condor_SUEP_WS.py --isMC=1 --era=2018 --dataset=DY --analyzer=ZH_simple --infile=/eos/user/c/cericeci/SUEP_signals/DY18/NANO_NANO.root"
+        - DY(Drell-Yann) process is the background. The code above makes a "condor_out.hdf5" file in "outputDY" directory.
+      - For ZH procvess: "python condor_SUEP_WS.py --isMC=1 --era=2018 --dataset=signal --analyzer=ZH_simple --infile=/eos/user/c/cericeci/SUEP_signals/UL18/ZHleptonicpythia_generic_M125_T2ZHleptonic/NANOAOD/total.root"
+        - ZH process is the signal. The code above makes a "condor_out.hdf5" file in "outputZH" directory.
+  
