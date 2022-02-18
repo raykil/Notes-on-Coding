@@ -2,7 +2,7 @@
 - Commit = save
 - Commit hash = unique identifier for a particular commit
 - Branch = another “experimental” version of a main project (branching off)
-    - Master branch = the main branch
+    - Main branch = the main branch
 - Insights > Network: Visualizes the tree (all the branches)
 - Pull request = Requesting to take the things in one branch and put it into another branch.
 - Merge =
