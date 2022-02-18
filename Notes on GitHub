@@ -1,0 +1,9 @@
+- repository = a folder for a project, can have multiple files
+- Commit = save
+- Commit hash = unique identifier for a particular commit
+- Branch = another “experimental” version of a main project (branching off)
+    - Master branch = the main branch
+- Insights > Network: Visualizes the tree (all the branches)
+- Pull request
+- Merge
+- How to put the version of different branch into master branch: 
