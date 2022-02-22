@@ -27,7 +27,7 @@
     - How to add new information: 
       i) Open "doPlots.py" using "vi doPlots.py" command
       ii) In line 14, there is code called "plots = {}". In {}, put info about the plots that I want to plot in the form:
-          " "Leading Lepton phi":["leadlep_phi",{number of bins},{xmin},{xmax},"{Variable name}"] "
+          - " "{Title of the plot}":["{Variable to be plotted}",{number of bins},{xmin},{xmax},"{Variable name}"] "
           - Ex) " "Leading Lepton phi":["leadlep_phi",50,0,6.28,"phi"] "
   
   4. Make new plots by writing the following command: 
