@@ -18,7 +18,8 @@
         - ZH process is the signal. The code above makes a "condor_out.hdf5" file in "outputZH" directory.
         - Like above, "--outputdir=$PWD/outputZH" part commands that the "condor_out.hdf5" to be in "$PWD/outputZH" directory
     
-    iii) A file "condor_out.hdf5" will be created in "SUEPCoffea_dask" directory. I have to move that file into respective directories, 
+    iii) ***EDIT*** This part can be ignored becuase the code for analyzer is edited so that "out.hdf5" moves right into "outputDY" and "outputZH" folders.
+         A file "condor_out.hdf5" will be created in "SUEPCoffea_dask" directory. I have to move that file into respective directories, 
          i.e., "outputDY" and "outputZH" directories.
         
   3. Add new information in the plotter so that I can get a new plot
