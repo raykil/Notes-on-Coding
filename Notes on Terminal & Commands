@@ -44,9 +44,9 @@
 
 <<Notes on GitHub Tutorial>>
 
-- repository = a folder for a project, can have multiple files
+- Repository (repo) = a folder for a project, can have multiple files
 - Commit = save
-- Commit hash = unique identifier for a particular commit
+- Commit hash = unique alphanumeral identifier for a particular commit
 - Branch = another “experimental” version of a main project (branching off)
     - Main branch = the main branch
 - Insights > Network: Visualizes the tree (all the branches)
