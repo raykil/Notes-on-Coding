@@ -41,3 +41,15 @@
   - "me" in the command is name of my locale
 - "git status" command tells me which things are changed
 - "git remote -v" command tells me the locations where same(locally edited) copies are
+
+<<Notes on GitHub Tutorial>>
+
+- repository = a folder for a project, can have multiple files
+- Commit = save
+- Commit hash = unique identifier for a particular commit
+- Branch = another “experimental” version of a main project (branching off)
+    - Main branch = the main branch
+- Insights > Network: Visualizes the tree (all the branches)
+- Pull request = Requesting to take the things in one branch and put it into another branch.
+- Merge =
+- How to put the version of different branch into master branch: 
