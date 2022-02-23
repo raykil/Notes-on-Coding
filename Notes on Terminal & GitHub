@@ -37,6 +37,13 @@
   ii) use "git add {filename}" command to specify which files I want to commit.
   iii) use "git commit" command to commit the added files.
   
+- How to pull stuff from GitHub to my local terminal:
+  - 
+
+- How to push my code in local Terminal to GitHub:
+  - "push {remote} {branch}"
+  - Ex) "push origin master"
+
 - "git merge me/master"
   - "me" in the command is name of my locale
 - "git status" command tells me which things are changed
