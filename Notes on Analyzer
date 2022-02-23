@@ -1,3 +1,9 @@
+*** Whatever I change the code, let's change in GitHub then pull it to my local Terminal.
+  - How to pull
+    i) Edit the thing that I want to edit in GitHub
+    ii) Commit the changes
+    iii) at Terminal "SUEPCoffea_dask" directory, write "git pull" command.
+
 - How to plot things:
 
   1. Add information about what I want to plot in the analyzer
