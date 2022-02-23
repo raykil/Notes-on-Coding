@@ -38,7 +38,7 @@
   iii) use "git commit" command to commit the added files.
   
 - How to pull stuff from GitHub to my local terminal:
-  - 
+  - "git pull"
 
 - How to push my code in local Terminal to GitHub:
   - "push {remote} {branch}"
