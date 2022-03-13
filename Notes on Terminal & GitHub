@@ -18,6 +18,8 @@
     - scp "jkil@lxplus.cern.ch:/eos/user/j/jkil/SUEP/output_graphs/{filename}" .
       - the last "." means the current directory I am in.
 
+- SUEP coffea dask address: cd /eos/user/j/jkil/SUEP/SUEPCoffea_dask
+
 - Installing ROOT:
   i) pushd /eos/user/j/jkil/SUEP/CMSSW_10_6_20/src/
     - "pushd" command moves to the directory specified, while remembering the diretory that I am currently in.
