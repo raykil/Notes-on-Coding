@@ -4,6 +4,16 @@
     ii) Commit the changes
     iii) at Terminal "SUEPCoffea_dask" directory, write "git pull" command.
 
+- SUEP coffea dask address: cd /eos/user/j/jkil/SUEP/SUEPCoffea_dask
+
+- Installing ROOT:
+  i) pushd /eos/user/j/jkil/SUEP/CMSSW_10_6_20/src/
+    - "pushd" command moves to the directory specified, while remembering the diretory that I am currently in.
+  ii) cmsenv
+    - This means to load all libraries used by CMS. This command only works in src folder.
+  iii) pushd
+    - This command brings me back to the original directory that I was in.
+
 - How to plot things:
 
   1. Add information about what I want to plot in the analyzer
