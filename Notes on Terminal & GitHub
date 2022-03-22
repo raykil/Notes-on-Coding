@@ -86,3 +86,6 @@
 - Merge =
 - How to put the version of different branch into master branch: 
 - Fork = Making a copy of a whole directory from another user to my account. Changes X affect the original directory.
+
+<<Notes on Vim>>
+- dd = erase the whole line in normal mode
