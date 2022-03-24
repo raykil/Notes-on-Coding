@@ -5,6 +5,7 @@
     iii) at Terminal "SUEPCoffea_dask" directory, write "git pull" command.
 
 - SUEP coffea dask address: cd /eos/user/j/jkil/SUEP/SUEPCoffea_dask
+- My personal website: https://raymondkil.web.cern.ch
 
 - Installing ROOT:
   i) pushd /eos/user/j/jkil/SUEP/CMSSW_10_6_20/src/
