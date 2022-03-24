@@ -50,8 +50,12 @@
   4. Make new plots by writing the following command: 
     - First, make sure that I activated ROOT
     - "python doPlots.py"
-      - 
-  
+
+- on submitJobs.py
+  - calling the function takes 5 arguments: "python submitJobs.py {# of files} {folder where files to be processed are} {where to put output.hdf5 files} {queue to which it will submitted} {1}"
+    - {# of files}: 10 is maximum, -1 means all
+    - {queue to which it will submitted}: espresso
+    - 1: this means 'do the submission'
   
   
   
