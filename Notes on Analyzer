@@ -26,13 +26,13 @@
     
     ii) To run the analyzer, type the following codes in "SUEPCoffea_dask" directory (which is a directory that contains "condor_SUEP_WS.py"):
       
-      - For DY process: "python condor_SUEP_WS.py --isMC=1 --era=2018 --dataset=DY --analyzer=ZH_simple --infile=/eos/user/c/cericeci/SUEP_signals/DY18/NANO_NANO.root --outputdir=$PWD/outputDY"
+      - For DY process: "python condor_SUEP_WS.py --isMC=1 --era=2018 --dataset=DY --analyzer=ZH_simple --infile=/eos/user/j/jkil/SUEP/SUEPCoffea_dask/DY18/NANO_NANO.root --outputdir=$PWD/outputDY"
         - DY(Drell-Yann) process is the background. The code above makes a "condor_out.hdf5" file in "outputDY" directory.
-        - The last part of the command, i.e., "--outputdir=$PWD/outputDY", is commanding that the "condor_out.hdf5" to be in "$PWD/outputDY" directory
+        - The last part of the command, i.e., "--outputdir=$PWD/outputDY", is commanding that the "out.hdf5" to be in "$PWD/outputDY" directory
           - "$PWD/" is the trick to not write the whole address
       
-      - For ZH procvess: "python condor_SUEP_WS.py --isMC=1 --era=2018 --dataset=signal --analyzer=ZH_simple --infile=/eos/user/c/cericeci/SUEP_signals/UL18/ZHleptonicpythia_generic_M125_T2ZHleptonic/NANOAOD/total.root --outputdir=$PWD/outputZH"
-        - ZH process is the signal. The code above makes a "condor_out.hdf5" file in "outputZH" directory.
+      - For ZH procvess: "python condor_SUEP_WS.py --isMC=1 --era=2018 --dataset=signal --analyzer=ZH_simple --infile=/eos/user/j/jkil/SUEP/SUEPCoffea_dask/ZH18/total.root --outputdir=$PWD/outputZH"
+        - ZH process is the signal. The code above makes a "out.hdf5" file in "outputZH" directory.
         - Like above, "--outputdir=$PWD/outputZH" part commands that the "condor_out.hdf5" to be in "$PWD/outputZH" directory
     
     iii) ***EDIT*** This part can be ignored becuase the code for analyzer is edited so that "out.hdf5" moves right into "outputDY" and "outputZH" folders.
