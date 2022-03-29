@@ -6,7 +6,7 @@
 
 - SUEP coffea dask address: cd /eos/user/j/jkil/SUEP/SUEPCoffea_dask
 - My personal website: https://raymondkil.web.cern.ch
-
+                       cd /eos/user/j/jkil/www
 - Installing ROOT:
   i) pushd /eos/user/j/jkil/SUEP/CMSSW_10_6_20/src/
     - "pushd" command moves to the directory specified, while remembering the diretory that I am currently in.
