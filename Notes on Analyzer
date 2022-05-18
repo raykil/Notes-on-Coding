@@ -59,6 +59,6 @@
     - 1: this means 'do the submission'
   - Ex) python submitJobs.py -1 /eos/user/c/cericeci/SUEP_signals/DY18/ outputDYtest/ espresso 1
   
-  
+  **** Remember to push my local work before merging pull request!!!!
   
   
