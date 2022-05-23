@@ -32,9 +32,12 @@
           - "$PWD/" is the trick to not write the whole address
         - Remember to manipulate the chunksize! (The last argument in the command)
       
-      - For ZH procvess: "python condor_SUEP_WS.py --isMC=1 --era=2018 --dataset=signal --analyzer=ZH_simple --infile=/eos/user/j/jkil/SUEP/SUEPCoffea_dask/ZH18/total.root --outputdir=$PWD/outputZH --chunksize=1000"
+      - For ZH process: "python condor_SUEP_WS.py --isMC=1 --era=2018 --dataset=signal --analyzer=ZH_simple --infile=/eos/user/j/jkil/SUEP/SUEPCoffea_dask/ZH18/total.root --outputdir=$PWD/outputZH --chunksize=1000"
         - ZH process is the signal. The code above makes a "out.hdf5" file in "outputZH" directory.
         - Like above, "--outputdir=$PWD/outputZH" part commands that the "condor_out.hdf5" to be in "$PWD/outputZH" directory
+        
+      - NANOAOD file process: "python condor_SUEP_WS.py --isMC=1 --era=2018 --dataset=signal --analyzer=ZH_simple --infile=/eos/user/c/cericeci/SUEP_signals/UL18_withgeninfo/ZHleptonicpythia_generic_M125_MD2_T2_HT0.0_new_propergen/NANOAOD/nanoaod_1001.root --outputdir=$PWD/outputZH --chunksize=1000"
+        - NANOAOD files have identified tracks. We can know a priori which tracks are from SUEP events and which are from background.
     
     iii) ***EDIT*** This part can be ignored becuase the code for analyzer is edited so that "out.hdf5" moves right into "outputDY" and "outputZH" folders.
          A file "condor_out.hdf5" will be created in "SUEPCoffea_dask" directory. I have to move that file into respective directories, 
