@@ -8,3 +8,5 @@
 - Address:
   - Coffea Dask : /eos/user/j/jkil/SUEP/SUEPCoffea_dask
   - CERN webside: /eos/user/j/jkil/www
+
+- Changing machine: ssh lxplus{number}
