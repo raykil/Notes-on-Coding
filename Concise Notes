@@ -1,5 +1,5 @@
 - Analyzer code:
-  - DY: python condor_SUEP_WS.py --isMC=1 --era=2018 --dataset=DY --analyzer=ZH_simple --infile=/eos/user/j/jkil/SUEP/SUEPCoffea_dask/DY18/NANO_NANO.root --outputdir=$PWD/outputDY --chunksize=1000
+  - DY: python condor_SUEP_WS.py --isMC=1 --era=2018 --dataset=DY --analyzer=ZH_simple --infile=/eos/user/j/jkil/SUEP/SUEPCoffea_dask/DY18/DY_nano_Autumn18/NANO_NANO.root --outputdir=$PWD/outputDY --chunksize=10000
   - ZH: python condor_SUEP_WS.py --isMC=1 --era=2018 --dataset=signal --analyzer=ZH_simple --infile=/eos/user/j/jkil/SUEP/SUEPCoffea_dask/ZH18/total.root --outputdir=$PWD/outputZH --chunksize=1000
   - NANOAOD: python condor_SUEP_WS.py --isMC=1 --era=2018 --dataset=signal --analyzer=ZH_simple --infile=/eos/user/c/cericeci/SUEP_signals/UL18_withgeninfo/ZHleptonicpythia_generic_M125_MD2_T2_HT0.0_new_propergen/NANOAOD/total.root --outputdir=$PWD/outputSimTracks --chunksize=1000
   
