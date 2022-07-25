@@ -10,3 +10,10 @@
   - CERN webside: /eos/user/j/jkil/www
 
 - Changing machine: ssh lxplus{number}
+
+- Downloading files in lxplus to my local machine:
+  - Open terminal in my local machine
+  - scp jkil@lxplus.cern.ch:{path where my files are} {path to deestination}
+  - ex) scp jkil@lxplus.cern.ch:/eos/user/j/jkil/www/hello.png /Users/raymondkil/Desktop/
+  - Caution: If I'm using wildcard *, I have to escape it with "\"
+  
