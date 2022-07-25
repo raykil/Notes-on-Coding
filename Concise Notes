@@ -17,3 +17,6 @@
   - ex) scp jkil@lxplus.cern.ch:/eos/user/j/jkil/www/hello.png /Users/raymondkil/Desktop/
   - Caution: If I'm using wildcard *, I have to escape it with "\"
   
+- Killing a job: 
+  - control + C
+  - kill %
