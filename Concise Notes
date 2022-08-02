@@ -20,3 +20,7 @@
 - Killing a job: 
   - control + C
   - kill %
+
+- Using interactive python in Terminal
+  - type "python"
+  - to exit, control + d
